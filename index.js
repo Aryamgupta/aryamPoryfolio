@@ -1,6 +1,12 @@
 // implemention of scroll open button
 'use strict';
 
+const meta = document.createElement('meta');
+meta.setAttribute('content', 'width=device-width,initial-scale=1');
+meta.setAttribute('name', 'viewport');
+document.querySelector('head').appendChild(meta);
+
+
 // for header and  footer in each package
 
 const maincontent = document.querySelector('.maincontent');
